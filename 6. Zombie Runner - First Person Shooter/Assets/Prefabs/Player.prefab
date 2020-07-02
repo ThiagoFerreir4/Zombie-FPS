@@ -61,6 +61,8 @@ GameObject:
   - component: {fileID: 7917118628688144199}
   - component: {fileID: 7917118628678879111}
   - component: {fileID: 7917118628685296067}
+  - component: {fileID: 1790858202}
+  - component: {fileID: 1790858199}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -182,6 +184,32 @@ MonoBehaviour:
     slowDownRate: 20
     airControl: 0
     shellOffset: 0
+--- !u!114 &1790858202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7917118628691330081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b1b8d1d43773d4aa9375faffd1ee51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 100
+--- !u!114 &1790858199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7917118628691330081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33d361eb2aa06124fb7d27ee8667d240, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
 --- !u!1 &7917118628691330083
 GameObject:
   m_ObjectHideFlags: 0
