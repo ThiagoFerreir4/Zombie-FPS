@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  chaseRange: 5
+  chaseRange: 15
 --- !u!114 &6104607767942362874
 MonoBehaviour:
   m_ObjectHideFlags: 0

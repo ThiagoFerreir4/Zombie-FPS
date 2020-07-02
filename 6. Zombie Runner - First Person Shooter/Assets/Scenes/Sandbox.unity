@@ -1704,6 +1704,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1773727802}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1790858198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7917118628691330081, guid: a7016eca0901ed742bbdd739a1f592b2,
+    type: 3}
+  m_PrefabInstance: {fileID: 7917118629363414075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1790858199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790858198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b1b8d1d43773d4aa9375faffd1ee51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1803239964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2204,7 +2222,7 @@ PrefabInstance:
     - target: {fileID: 3275414041369827522, guid: 4e12dc4a490c6f2469062766174cdbd9,
         type: 3}
       propertyPath: chaseRange
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 172400045, guid: 4e12dc4a490c6f2469062766174cdbd9, type: 3}
       propertyPath: target

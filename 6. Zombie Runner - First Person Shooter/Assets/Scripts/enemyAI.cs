@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class enemyAI : MonoBehaviour
+public class EnemyAI : MonoBehaviour
 {
     [SerializeField] Transform target;
     [SerializeField] float chaseRange = 5f;
@@ -27,8 +27,6 @@ public class enemyAI : MonoBehaviour
         else if(distanceToTarget <= chaseRange)
         {
             isProvoked = true;
-
-            // 
         }        
     }
 
@@ -55,7 +53,6 @@ public class enemyAI : MonoBehaviour
     private void AttackTarget()
     {
         GetComponent<Animator>().SetBool("attack", true);
-        Debug.Log(name + " has seeked and is destroying " + target.name);
     }
 
     void OnDrawGizmosSelected()
