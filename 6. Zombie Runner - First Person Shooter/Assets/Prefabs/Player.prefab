@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1400836633}
+  - component: {fileID: 1092795836}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -27,12 +28,25 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5598455797346998157}
-  - {fileID: 1870456338913514618}
   - {fileID: 7544987185462435256}
+  - {fileID: 1870456338913514618}
+  - {fileID: 5598455797346998157}
   m_Father: {fileID: 7917118628691040263}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1092795836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400836632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e560c71b8d998541b8f86da2b0a26be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentWeapon: 0
 --- !u!114 &4540724636961834328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,14 +525,14 @@ PrefabInstance:
       objectReference: {fileID: 7917118628692575751}
     - target: {fileID: 2225169122743398042, guid: 3d731ad31cecacb4181c8bb2b6d38196,
         type: 3}
-      propertyPath: ammoSlot
-      value: 
-      objectReference: {fileID: 5144522774137373348}
-    - target: {fileID: 2225169122743398042, guid: 3d731ad31cecacb4181c8bb2b6d38196,
-        type: 3}
       propertyPath: range
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 2225169122743398042, guid: 3d731ad31cecacb4181c8bb2b6d38196,
+        type: 3}
+      propertyPath: ammoSlot
+      value: 
+      objectReference: {fileID: 5144522774137373348}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d731ad31cecacb4181c8bb2b6d38196, type: 3}
 --- !u!1 &1870456338913871962 stripped
@@ -583,7 +597,7 @@ PrefabInstance:
     - target: {fileID: 336162015687780854, guid: 3d3a4f5fcb4669e4396a9e4382609315,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 336162015687780854, guid: 3d3a4f5fcb4669e4396a9e4382609315,
         type: 3}
@@ -715,6 +729,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carbine
       objectReference: {fileID: 0}
+    - target: {fileID: 2337074158997199750, guid: ada2587319194f542957a8c2ae277cb9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -753,7 +772,7 @@ PrefabInstance:
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2337074158996965286, guid: ada2587319194f542957a8c2ae277cb9,
         type: 3}
