@@ -84,6 +84,7 @@ MonoBehaviour:
   hitEffect: {fileID: 8049552443578878193, guid: 44fb51ab0eadb8744ad5f299b5c8cc18,
     type: 3}
   ammoSlot: {fileID: 5144522774137373348}
+  ammoType: 2
   timeBetweenShots: 0.5
 --- !u!114 &4254169009784961587
 MonoBehaviour:
@@ -539,6 +540,16 @@ PrefabInstance:
       propertyPath: ammoSlot
       value: 
       objectReference: {fileID: 5144522774137373348}
+    - target: {fileID: 2225169122743398042, guid: 3d731ad31cecacb4181c8bb2b6d38196,
+        type: 3}
+      propertyPath: ammoType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2225169122743398042, guid: 3d731ad31cecacb4181c8bb2b6d38196,
+        type: 3}
+      propertyPath: timeBetweenShots
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d731ad31cecacb4181c8bb2b6d38196, type: 3}
 --- !u!1 &1870456338913871962 stripped
